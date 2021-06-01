@@ -26,3 +26,17 @@
     margin-left: 1.6em;
     margin-bottom: -3px;
 }
+
+/*** Breakpoint 3 at 950px ***/
+
+@media (max-width: 950px) {
+
+.breadcrumb-list {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.breadcrumb-item {
+    margin-bottom: .5em;
+}}
+
