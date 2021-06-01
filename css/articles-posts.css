@@ -1,0 +1,202 @@
+/* Articles - Posts */
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+}
+
+.inner-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-img {
+    margin-bottom: 3em;
+}
+
+.post-title {
+    font-family: var(--main-font);
+    font-size: 2.6em;
+    font-weight: 800;
+    color: var(--text-color);
+    padding: 30px 0 30px 0;
+}
+
+.post-title::selection {
+    background: #E0FF99;
+}
+
+.date-info,
+.author-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.post-author {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.post-date {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.fa-clock,
+.fa-user {
+    margin-right: .5em;
+    margin-top: .2em;
+    font-weight: 700;
+}
+
+/* Main text */
+
+.main-text-container {
+    margin-top: 4em;
+}
+
+.main-text {
+    font-family: var(--main-font);
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 2em;
+    color: var(--text-color);
+    margin-bottom: 2.6em;
+}
+
+.main-text::selection {
+    background: #E8FFB3;
+}
+
+.main-text::-moz-selection {
+    background: #E8FFB3;
+}
+
+/* Bold text */
+
+.text-bold {
+    font-weight: 900;
+}
+
+.text-bold::selection {
+    background: #E0FF99;
+}
+
+.text-bold::-moz-selection {
+    background: #E0FF99;
+}
+
+/* Post links */
+
+.post-links {
+    font-size: 1em;
+    text-decoration: underline .15em #84bd00;
+    text-underline-offset: .16em;
+    transition: text-decoration text-underline-offset 2s;
+}
+
+.post-links:hover {
+    text-decoration: underline .25em #84bd00;
+    text-underline-offset: .13em;
+}
+
+/* Post links transition not working */
+
+/* 
+.post-links {
+    font-size: 1em;
+    display: inline-block;
+}
+
+.post-links::after{
+  content: '';
+  height: .20em;
+  background: #84bd00;
+  border-radius: 5px;
+  display: block;
+}
+
+.post-links:hover::after{
+    content: '';
+    height: .25em;
+    background: #84bd00;
+    border-radius: 5px;
+    display: block;
+} */
+  
+.post-links::selection {
+    background: #E0FF99;
+}
+
+.post-links::-moz-selection {
+    background: #E0FF99;
+}
+
+/* Easy main text */
+
+.easy-text-container {
+    margin-top: 4em;
+}
+
+.easy-main-text {
+    font-family: var(--main-font);
+    font-size: 1.28em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 2em;
+    color: var(--text-color);
+    margin-bottom: 2.8em;
+    text-transform: uppercase;
+}
+
+.easy-text-bold {
+    font-weight: 900;
+}
+
+.easy-text-list {
+    list-style: none;
+    padding-left: 4em;
+}
+
+.list-item {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-right: .7em;
+    margin-top: .5em;
+    color: #84bd00;
+}
+
+/* Text end stroke */
+
+.text-end-stroke {
+    height: 25vh;
+    width: 45px;
+    border-top: 0.95em #84bd00 solid;
+}
+
+/* Related content */
+
+.related-content-container {
+    height: 700px;
+    padding-left: 5em;
+}
+
+/* Youtube video */
+
+.frame-youtube-video-container {
+    margin-bottom: 2.8em;
+}
+
+/*** Breakpoint 3 at 750px ***/
+@media (max-width: 750px) {
+    .main-text {
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.5em;
+        color: var(--text-color);
+        margin-bottom: 2em;
+    }}

@@ -1,0 +1,114 @@
+/* Root */
+
+:root {
+    --text-color: #56525B;
+    --brand-color: #84bd00;
+    --main-font: 'Nunito', sans-serif;
+    /* --main-font: 'Open Sans', sans-serif; */
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    font-family: var(--main-font);
+}
+
+.outer-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    width: 65%;
+}
+
+a {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+button {
+    font-family: var--(main-font);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    color: var(--text-color);
+    margin-bottom: 2em;
+}
+h4 {
+    font-size: 1.3em;
+    font-weight: 900;
+    color: var(--text-color);
+    margin-bottom: .3em;
+    text-transform: uppercase;
+}
+
+.collaborators-container {
+    height: 250px;
+    padding-left: 5em;
+}
+
+/*** Breakpoint 1 at 1200px ***/
+@media (max-width: 1200px) {
+
+article {
+    width: 75%;
+    padding-left: 10%;
+}}
+
+/*** Breakpoint 2 at 1100px ***/
+
+@media (max-width: 950px) {
+
+body {
+    width: 100% !important;
+    height: 100%;
+}
+
+article {
+    width: 85%;
+}
+
+.nav-accessibility,
+.nav-top,
+.collaborators-section,
+.related-content-container {
+    display: none !important;
+}
+}
+
+/*** Breakpoint 3 at 750px ***/
+@media (max-width: 750px) {
+
+body {
+    width: 100% !important;
+    height: 100%;
+}
+
+article {
+    width: 95%;
+    padding-left: 5%;
+}
+
+.breadcrumb-container {
+    display: none !important;
+}
+}

@@ -1,0 +1,28 @@
+/* Breadcrumb */
+
+.breadcrumb-container {
+    padding-left: 5em;
+}
+
+.breadcrumb-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.breadcrumb-item {
+    font-size: .95em;
+    font-weight: 600;
+    margin-right: 1.3em;
+    text-decoration: underline .15em #84bd00;
+}
+
+.breadcrumb-last-item {
+    font-size: .95em;
+}
+
+.fa-chevron-right {
+    font-size: .7em;
+    margin-left: 1.6em;
+    margin-bottom: -3px;
+}

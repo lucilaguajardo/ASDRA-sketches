@@ -1,0 +1,58 @@
+/* Footer */
+
+footer {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    padding-top: 4em;
+    background-color: #84bd00;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.9em;
+    color: #fff;
+    margin-bottom: 2.2em;
+}
+
+.footer-info-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 100%;
+    padding: 3em 3em 3em 3em;  
+    border-top: 1px solid #fff;
+}
+
+.footer-info {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 auto;
+    margin-bottom: .62em;
+
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.footer-info::selection {
+    background: #6f9e00;
+}
+
+.footer-info::-moz-selection {
+    background: #6f9e00;
+}
+
+/*** Breakpoint 3 at 750px ***/
+@media (max-width: 750px) {
+
+.footer-info {
+    font-size: .8em;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #fff;
+    margin-bottom: 1.6em;
+}
+}
