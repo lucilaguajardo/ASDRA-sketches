@@ -13,6 +13,7 @@ article {
 
 .post-img {
     margin-bottom: 3em;
+    width: 70%;
 }
 
 .post-title {
@@ -61,11 +62,11 @@ article {
 
 .main-text {
     font-family: var(--main-font);
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 600;
-    line-height: 2em;
+    line-height: 2.1em;
     color: var(--text-color);
-    margin-bottom: 2.6em;
+    margin-bottom: 2.7em;
 }
 
 .main-text::selection {
@@ -145,9 +146,9 @@ article {
 .easy-main-text {
     font-family: var(--main-font);
     font-size: 1.28em;
-    letter-spacing: 1px;
     font-weight: 700;
-    line-height: 2em;
+    letter-spacing: 1px;
+    line-height: 2.1em;
     color: var(--text-color);
     margin-bottom: 2.8em;
     text-transform: uppercase;
@@ -168,6 +169,41 @@ article {
     margin-right: .7em;
     margin-top: .5em;
     color: #84bd00;
+}
+
+/* Easy text button */
+
+.easy-text-checkbox {
+    width: 50px;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    display: flex;
+}
+
+.easy-text-button {
+    width: fit-content;
+    margin-top: 1em;
+    padding: 1em 1.7em 1em 1.7em;
+    border: none;
+    border-radius: 25px;
+    z-index: 1;
+    
+    font-family: var(--main-font);
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 2em;
+    color: white;
+    margin-bottom: 2.8em;
+    text-transform: uppercase;
+    background-color: var(--brand-color);
+}
+
+.easy-text-button:hover {
+    text-decoration: underline .17em white;
+    text-underline-offset: .2em;
 }
 
 /* Text end stroke */

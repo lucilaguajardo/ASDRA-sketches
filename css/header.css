@@ -2,6 +2,10 @@
 
 header {
     margin-bottom: 1.5em;
+    /* position: fixed;
+    background-color: white ;
+    width: 100%;
+    z-index: 1000; */
 }
 
 /* Accessibility nav */
@@ -91,7 +95,7 @@ header {
 
 .nav-top-button {
     list-style: none;
-    padding: 2em 0.5em 2em 0.5em;
+    padding: 1.8em 0.5em 1.8em 0.5em;
 }
 
 .nav-top-button:hover {

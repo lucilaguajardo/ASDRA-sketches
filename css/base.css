@@ -66,6 +66,71 @@ h4 {
     padding-left: 5em;
 }
 
+.main-container-landing {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* Main sections */
+
+.main-sections-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.main-section-health,
+.main-section-education,
+.main-section-adult-life {
+    display: flex;
+    width: 33%;
+    margin: 1.6em 1.6em 1.6em 0em;
+}
+
+
+.main-sections-title {
+    display: flex;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 2em;
+    margin: auto;
+}
+
+.main-sections-title:hover {
+    text-decoration: underline .19em white;
+    text-underline-offset: .17em;
+}
+
+.main-section-health{
+    background-color:  #f1b434;
+}
+
+.main-section-education{
+    background-color: #5CB8B2;
+}
+.main-section-adult-life{
+    background-color: #c964cf;
+    margin: 1.6em 0em 1.6em 0em !important;
+}
+
+/* Hidden */
+.hidden {
+    display: none;
+}
+
+/* Img top */
+
+.img-top {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
 /*** Breakpoint 1 at 1200px ***/
 @media (max-width: 1200px) {
 

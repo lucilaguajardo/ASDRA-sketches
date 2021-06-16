@@ -2,7 +2,7 @@
 
 footer {
     display: flex;
-    height: 400px;
+    height: 200px;
     width: 100%;
     padding-top: 4em;
     background-color: #84bd00;
@@ -53,6 +53,10 @@ footer {
     font-weight: 600;
     line-height: 1.4em;
     color: #fff;
-    margin-bottom: 1.6em;
+    margin-bottom: 1.4em;
+}
+
+.footer-info-container {
+    padding: 1.5em;  
 }
 }
