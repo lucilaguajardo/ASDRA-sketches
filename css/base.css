@@ -177,12 +177,3 @@ article {
     display: none !important;
 }
 }
-
-
-/* Construction */
-
-.construction {
-    background-color: grey;
-    width: 100%;
-    height: 200px;
-}
